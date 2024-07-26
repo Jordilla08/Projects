@@ -14,10 +14,22 @@ body{
     background: #2a2b32;
 }
 
+.one-half.column{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
 a{
     color: #ccc;
     text-decoration: none;
     transition: 0.3s;
+}
+
+.img-slider .links-list ul{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
 }
 
 a:hover{
