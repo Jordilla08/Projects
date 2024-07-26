@@ -26,11 +26,11 @@ a{
     transition: 0.3s;
 }
 
-.img-slider .links-list ul{
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-}
+
+
+
+
+
 
 a:hover{
     color: #e91e63;
