@@ -336,5 +336,129 @@ nav .login a{
 
 footer .copyright{
     width: 100%;
+
+}
+
+@media screen and (max-width: 1400px) {
+    .prompt-sec h1{
+        font-size: 136px;
+        line-height: 90px;
+    }
+
+    .prompt-sec .prompt-img .tabs a{
+        width: 120px;
+    }
+
+    .showcase h3{
+        font-size: 40px;
+        margin-bottom: 14px;
+    }
+
+    .showcase .text-sec{
+        flex-direction: column;
+    }
+    .showcase .text-sec p{
+        width: 100%;
+    }
+
+    .showcase .text-sec .images,
+    .showcase .image-sec{
+        margin-left: auto;
+    }
+    .showcase .text-sec .images img,
+    .showcase .image-sec img{
+        width: 228px;
+    }
+    
+    .services .header h3,
+    .video-sec .header h3{
+        font-size: 40px;
+        width: 75%;
+    }
+
+    .services .service-items{
+        flex-wrap: wrap;
+    }   
+
+    .services .service-items .item{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .prompt-sec h1{
+        font-size: 100px;
+        line-height: 70px;
+    }
+
+    .prompt-sec .prompt-img input{
+        top: 70%;
+        width: 70%;
+        padding: 12px;
+    }
+
+    .prompt-sec .prompt-img .tabs a{
+        font-size: 14px;
+        width: 100px;
+    }
+
+    .showcase, .services .service-items{
+        padding: 40px;
+    }
+
+    .showcase h3{
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .showcase .text-sec .images,
+    .showcase .image-sec{
+        justify-content: center;
+    }
+
+    .showcase .text-sec .images img,
+    .showcase .image-sec img{
+        width: 30%;
+    }
+
+    .services .header{
+        flex-direction: column;
+        padding: 40px 40px 0;
+    }
+
+    .services .header h3{
+        width: 100%;
+    }
+
+    .services .header h3,
+    .video-sec .header h3{
+        font-size: 36px;
+        width: 100%;
+    }
+
+    .services .service-items .item{
+        width: 100%;
+    }
+
+    .services .service-items .item .desc h5{
+        font-size: 26px;
+    }
+
+    .video-sec .header{
+        flex-direction: column-reverse;
+        padding: 40px 40px 0;
+    }
+
+    .video-sec .video{
+        padding: 0 40px;
+    }
+
+    .video-sec .video img{
+        height: 340px;
+    }
+
+    .video-sec .video button{
+        font-size: 80px;
+    }
     
 }
