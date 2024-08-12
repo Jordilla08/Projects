@@ -27,7 +27,7 @@ img{
 }
 
 body{
-    background: #171717;
+    background: #0a0a0a;
 }
 
 
@@ -220,4 +220,83 @@ nav .login a{
     width: 256px;
     border-radius: 40px;
     border: 2px solid #a3e635;
+}
+
+.services .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px 0;
+}
+.services .header h3{
+    color: #fff;
+    font-size: 56px;
+    text-transform: uppercase;
+    width: 60%;
+}
+.services .service-items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 80px;
+    padding-bottom: 40px;
+}
+
+.services .service-items .item{
+    background: #171717;
+    padding: 20px;
+    border-radius: 40px;
+    width: 25%;
+}
+
+.services .service-items .item .title{
+    display: flex;
+    align-items: center;
+    background: #2e2c29;
+    padding: 5px 20px 5px 5px;
+    gap: 10px;
+    width: fit-content;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.services .service-items .item .title .gradient{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.services .service-items .item:nth-child(1) .title .gradient{
+    background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7a4cae 25%, #8f4dbf 38%, #a54dbe 50%, #bb4ab9 63%, #ce47b3 75%, #de44ab 88%, #eb42a1 100%);
+}
+.services .service-items .item:nth-child(2) .title .gradient{
+    background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #2e8db3 71%, #3b6db0 82%, #4b4fad 91%, #5c2fa4 100%);
+}
+.services .service-items .item:nth-child(3) .title .gradient{
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+.services .service-items .item:nth-child(4) .title .gradient{
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+
+.services .service-items .item .desc h5{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.services .service-items .item.active{
+    background: #a3e635;
+}
+
+.services .service-items .item.active .title{
+    background: #000;
+}
+
+.services .service-items .item.active .desc h5{
+    color: #000;
+}
+.services .service-items .item.active .desc p{
+    color: #313131;
 }
