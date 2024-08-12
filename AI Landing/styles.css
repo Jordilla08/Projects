@@ -462,3 +462,83 @@ footer .copyright{
     }
     
 }
+
+@media screen and (max-width: 768px) {
+
+    .nav .logo i{
+        padding: 6px;
+    }
+
+    .nav .nav-links a{
+        font-size: 14px;
+    }
+
+    nav .nav-links p,
+    footer .copyright p{
+        font-size: 12px;
+    }
+
+    nav .login img{
+        width: 28px;
+        height: 28px;
+    }
+
+    .prompt-sec h1{
+        font-size: 80px;
+        line-height: 60px;
+        margin-top: 20px;
+    }
+
+    .prompt-sec .prompt-img input{
+        width: 80%;
+        padding: 10px;
+    }
+    .prompt-sec .prompt-img .tabs{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        width: 92%;
+        bottom: -60px;
+        padding: 20px 0;
+    }
+
+    .prompt-sec .prompt-img .tabs a{
+        font-size: 12px;
+        width: 30%;
+    }
+
+    .showcase h3{
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+
+    .showcase .text-sec p{
+        font-size: 14px;
+    }
+
+    .showcase .text-sec .images img,
+    .showcase .image-sec img{
+        width: 40%;
+    }
+
+    .services .header h3,
+    .video-sec .header h3{
+        font-size: 32px;
+    }
+
+    .services .service-items .item{
+        width: 100%;
+    }
+
+    .services .service-items .item .desc h5{
+        font-size: 22px;
+    }
+
+    .video-sec .video img{
+        height: 280px;
+    }
+
+    .video-sec .video button{
+        font-size: 60px;
+    }
+}
