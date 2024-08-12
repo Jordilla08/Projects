@@ -67,3 +67,37 @@ nav .nav-links a{
 nav .nav-links a:hover{
     color: #a3e635;
 }
+
+nav .nav-links .separator{
+    width: 5px;
+    height: 5px;
+    background: #a3e635;
+    border-radius: 50%;
+}
+
+nav .nav-links p{
+    font-size: 13px;
+}
+
+/* Login container styles */
+nav .login{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: #171717;
+    border-radius: 50px;
+    padding: 4px 4px 6px 14px;
+}
+
+/* Login icon styles */
+nav .login img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Login text styles */
+nav .login a{
+    color: #fff;
+    font-size: 13px;
+}
