@@ -126,6 +126,8 @@ nav .login a{
     box-shadow: 0 -20px 40px rgba(0, 0, 0, 1);
 }
 
+
+/* Input field styles */
 .prompt-sec .prompt-img input{
     width: 55%;
     position: absolute;
@@ -146,6 +148,8 @@ nav .login a{
     color: #ccc;
 }
 
+
+/* Tabs container styles */
 .prompt-sec .prompt-img .tabs{
     display: flex;
     align-items: center;
@@ -161,6 +165,8 @@ nav .login a{
     
 }
 
+
+/* individual Tab styles */
 .prompt-sec .prompt-img .tabs a{
     color: #fff;
     background: #231f1c;
@@ -171,7 +177,47 @@ nav .login a{
     transition: all 0.3s ease;
 }
 
+
+/* Active tab styles */
 .prompt-sec .prompt-img .tabs a.active, .prompt-sec .prompt-img .tabs a:hover{
  color: #231f1c;
  background: #a3e635;
+}
+
+.showcase{
+    padding: 40px 80px;
+    margin-top: 20px
+}
+
+.showcase h3{
+    color: #fff;
+    font-size: 56px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.showcase .text-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.showcase .text-sec p{
+    width: 50%;
+    text-align: justify;
+}
+.showcase .text-sec .images,
+.showcase .image-sec{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.showcase .text-sec .images img,
+.showcase .image-sec img{
+    width: 256px;
+    border-radius: 40px;
+    border: 2px solid #a3e635;
 }
