@@ -27,7 +27,7 @@ img{
 }
 
 body{
-    background: #09090c;
+    background: #171717;
 }
 
 
@@ -144,4 +144,34 @@ nav .login a{
 
 .prompt-sec .prompt-img input::placeholder{
     color: #ccc;
+}
+
+.prompt-sec .prompt-img .tabs{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    
+}
+
+.prompt-sec .prompt-img .tabs a{
+    color: #fff;
+    background: #231f1c;
+    padding: 10px;
+    width: 160px;
+    text-align: center;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.prompt-sec .prompt-img .tabs a.active, .prompt-sec .prompt-img .tabs a:hover{
+ color: #231f1c;
+ background: #a3e635;
 }
