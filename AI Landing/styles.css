@@ -32,7 +32,7 @@ body{
 
 
 /* Navbar styles */
-nav{
+nav, footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,7 +48,7 @@ font-size: 20px;
 }
 
 /* Nav bar link container styles */
-nav .nav-links{
+nav .nav-links, footer .copyright{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,14 +68,16 @@ nav .nav-links a:hover{
     color: #a3e635;
 }
 
-nav .nav-links .separator{
+nav .nav-links .separator,
+footer .copyright .separator{
     width: 5px;
     height: 5px;
     background: #a3e635;
     border-radius: 50%;
 }
 
-nav .nav-links p{
+nav .nav-links p
+footer .copyright p{
     font-size: 13px;
 }
 
@@ -222,13 +224,13 @@ nav .login a{
     border: 2px solid #a3e635;
 }
 
-.services .header{
+.services .header, .video-sec .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 40px 80px 0;
 }
-.services .header h3{
+.services .header h3, .video-sec .header h3{
     color: #fff;
     font-size: 56px;
     text-transform: uppercase;
@@ -299,4 +301,40 @@ nav .login a{
 }
 .services .service-items .item.active .desc p{
     color: #313131;
+}
+
+.video-sec .header h3{
+    text-align: right;
+}
+.video-sec .video{
+    margin: 20px 0 40px;
+    padding: 0 80px;
+    position: relative;
+}
+.video-sec .video img{
+    width: 100%;
+    height: 440px;
+    object-fit: top center;
+    border-radius: 40px;
+}
+
+.video-sec .video button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    display: flex;
+    background: rgba(86, 85, 85, 0.42);
+    backdrop-filter: blur(8.7px);
+    border: 1px solid rgba(86, 85, 85, 0.42);
+    border-radius: 50%;
+    color: #a3e635;
+    padding: 16px 16px 16px 24px;
+    cursor: pointer;
+}
+
+footer .copyright{
+    width: 100%;
+    
 }
