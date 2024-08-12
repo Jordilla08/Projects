@@ -101,3 +101,47 @@ nav .login a{
     color: #fff;
     font-size: 13px;
 }
+
+.prompt-sec{
+    padding: 20px;
+}
+
+.prompt-sec h1{
+    color: #ccc;
+    font-size: 182px;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 36px;
+}
+
+.prompt-sec .prompt-img{
+    position: relative;
+}
+
+.prompt-sec .prompt-img img{
+    width: 100%;
+    height: 540px;
+    border-radius: 60px;
+    object-position: top center;
+    box-shadow: 0 -20px 40px rgba(0, 0, 0, 1);
+}
+
+.prompt-sec .prompt-img input{
+    width: 55%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 20px;
+    backdrop-filter: blur(14px); /* Adding blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    padding: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.prompt-sec .prompt-img input::placeholder{
+    color: #ccc;
+}
