@@ -19,12 +19,21 @@ export interface Game {
 
 
 
-const useGames = (gameQuery: GameQuery) => useData<Game>(
-    '/games', { 
-    params: {
-        genres: gameQuery.genre?.id, 
-        platforms: gameQuery.platform?.id
-    } }, 
-    [gameQuery]);
+const useGames = (gameQuery: GameQuery) => {
+    console.log('GameQuery:', gameQuery); // Log the gameQuery object
+
+    const data = useData<Game>(
+        '/games', { 
+        params: {
+            genres: gameQuery.genre?.id, 
+            platforms: gameQuery.platform?.id
+        } }, 
+        [gameQuery]
+    );
+
+    console.log('API Response:', data); // Log the API response
+
+    return data;
+};
 
 export default useGames;
